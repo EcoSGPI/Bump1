@@ -12,9 +12,10 @@ def __init__(self, bot):
     async def bump(self):
         """Bumps servers!"""
 
-#Your code will go here
-    await self.bot.say("=bump")
-    await self.bot.say("dlm!bump")
+commands = ['bump', 'dlm!bump']
+
+for command in commands:
+    self.bot.say(command)
 
 def setup(bot):
     bot.add_cog(Bump(bot))
