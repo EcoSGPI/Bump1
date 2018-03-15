@@ -17,5 +17,5 @@ class Bump:
 	await self.bot.say("dlm!bump")
 
 def setup(bot):
-    bot.add_cog(bump(bot))
+    bot.add_cog(Bump(bot))
 
