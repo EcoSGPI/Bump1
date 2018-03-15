@@ -14,7 +14,6 @@ class Bump:
 
         #Your code will go here
         await self.bot.say("=bump")
-		time.sleep(5)
 		await self.bot.say("dlm!bump")
 
 def setup(bot):
